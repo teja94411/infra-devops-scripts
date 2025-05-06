@@ -1,0 +1,57 @@
+<!-- **File & Directory Management -->
+Write a script to find and delete files older than 30 days from /var/logs/.
+Create a script to monitor a directory (/tmp/uploads/) and move new files to another directory (/backup/).
+Write a script that recursively counts the number of files and directories in a given path.
+Create a script to find duplicate files in a directory based on size and content.
+Write a script to compress all .log files in /var/logs/ older than 7 days.
+Write a script to monitor a specific file and send an alert if it gets modified.
+Create a script that counts the number of lines, words, and characters in a given file.
+Write a script to rename all .txt files in a directory by appending the current date.
+Create a script to extract specific columns from a CSV file and generate a new file.
+Write a script that finds the largest file in a given directory and displays its size.
+<!-- //User & Permission Management// -->
+Write a script to list all users who have logged in the last 7 days.
+Create a script to check if a specific user exists and create one if not.
+Write a script to change the ownership of all files in /home/user/ to a specific user and group.
+Create a script that locks all users who have not logged in for 30 days.
+Write a script to monitor and restrict users from exceeding a specific file quota.
+Create a script that adds multiple users from a file and sets random passwords.
+Write a script to list all users currently logged in and save their details to a file.
+Create a script to check if a given user has sudo privileges and display the result.
+Write a script to check if a group exists, and if not, create it and add users.
+Create a script to generate a report of all users and their last login time.
+<!-- //Process & System Monitoring// -->
+Write a script that checks if a process (e.g., nginx) is running, and restarts it if not.
+Create a script to monitor CPU and memory usage and send an alert if usage exceeds 80%.
+Write a script to check disk usage and alert if usage exceeds 90%.
+Create a script to find and kill processes consuming more than 90% of CPU.
+Write a script that logs the top 10 memory-consuming processes every 10 minutes.
+Write a script that restarts a service (e.g., Apache) if it crashes.
+Create a script that monitors network traffic and logs packet drops.
+Write a script to check if the system uptime is more than 30 days and send a reboot reminder.
+Create a script to automate system updates and send a report.
+Write a script that checks if a specific port (e.g., 8080) is open and listening.
+<!-- //Log Management & Parsing// -->
+Write a script to extract IP addresses from an Apache log file (/var/log/apache2/access.log).
+Create a script to count the number of failed SSH login attempts (/var/log/auth.log).
+Write a script that automatically rotates logs in /var/log/custom_app/ every week.
+Create a script to monitor a log file in real time and send an email if a specific error appears.
+Write a script to track the number of HTTP 404 errors from an Nginx log file.
+Write a script to extract and count unique IP addresses from an Nginx log file.
+Create a script to filter out all ERROR logs from an application log file and save them separately.
+Write a script to track failed login attempts and block the IPs after 5 failed tries.
+Create a script that monitors log files in real time and triggers an alert if a specific pattern (e.g., CRITICAL ERROR) is found.
+Write a script to automatically archive log files older than 7 days and move them to /backup/logs/.
+<!-- //Automation & DevOps Tasks// -->
+Write a script to automate the backup of a database (e.g., MySQL, PostgreSQL) every day at midnight.
+Create a script to automatically deploy a Docker container with an Nginx server.
+Write a script to check if a Jenkins job has failed and trigger an alert.
+Create a script that pulls the latest code from GitHub and restarts the application.
+Write a script to fetch AWS EC2 instance details using the AWS CLI and save them to a file.
+Write a script to deploy a Docker container with environment variables from a .env file.
+Create a script that automates the restart of a Jenkins job if it fails.
+Write a script to fetch the latest release from a GitHub repository and deploy it to a server.
+Create a script that checks the status of a Kubernetes pod and restarts it if it crashes.
+Write a script to automate AWS EC2 instance provisioning using the AWS CLI and save instance details.
+
+

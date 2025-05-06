@@ -1,0 +1,60 @@
+Ansible Playbook & Configuration Management (15 Questions)
+-----------------------------------------------
+Write an Ansible playbook to install and configure an Nginx web server on multiple Linux servers.
+Write an Ansible playbook to deploy a Java-based application on Tomcat, including downloading the WAR file.
+Write an Ansible playbook to create a new user, assign SSH keys, and configure sudo access.
+Write an Ansible playbook to install and configure MySQL on multiple servers, including user creation.
+Write an Ansible playbook to automate the deployment of a Docker container with environment variables.
+Write an Ansible playbook to install the ELK stack and configure Logstash to collect logs from remote servers.
+Write an Ansible playbook to configure and start an Apache server with custom virtual hosts.
+Write an Ansible playbook to set up a high-availability web server using HAProxy.
+Write an Ansible playbook to configure firewall rules using firewalld or iptables.
+Write an Ansible playbook to automate package updates across multiple servers.
+Write an Ansible playbook to deploy a Kubernetes cluster using kubeadm.
+Write an Ansible playbook to automate SSL certificate renewal with Let's Encrypt and Nginx.
+Write an Ansible playbook to configure system limits (ulimit) for a high-performance application.
+Write an Ansible playbook to manage cron jobs across multiple servers.
+Write an Ansible playbook to install and configure Redis as a caching layer.
+🔁 Ansible Roles & Reusability (10 Questions)
+-----------------------------------------------
+Create an Ansible role for deploying a Node.js application with PM2 process manager.
+Create an Ansible role that can be reused for installing multiple versions of Python using pyenv.
+Create an Ansible role for automating AWS EC2 instance provisioning using the amazon.aws collection.
+Create an Ansible role to configure logging for systemd services and send logs to a central syslog server.
+Create an Ansible role for setting up and managing RabbitMQ clusters.
+Write an Ansible role that installs and configures Jenkins, including setting up an admin user.
+Write an Ansible role for automating MongoDB installation with custom replica set configurations.
+Write an Ansible role that deploys a full LEMP stack (Linux, Nginx, MySQL, PHP) in a single playbook.
+Create an Ansible role for managing user access to servers dynamically based on an inventory file.
+Write an Ansible role to configure automatic system updates and reboots during a maintenance window.
+🔐 Ansible Security, Compliance, and Patching (10 Questions)
+-----------------------------------------------
+Write an Ansible playbook to enforce SSH hardening by disabling root login and setting strong ciphers.
+Write an Ansible playbook to audit a system against CIS (Center for Internet Security) benchmarks.
+Write an Ansible playbook to scan servers for security vulnerabilities using lynis.
+Write an Ansible playbook to check for and update critical security patches on all Linux servers.
+Write an Ansible playbook to verify that all services are using the latest TLS version.
+Write an Ansible playbook to check for open ports and close unnecessary ones.
+Write an Ansible playbook to deploy and manage fail2ban to prevent brute-force attacks.
+Write an Ansible playbook to verify and enforce SELinux settings across multiple systems.
+Write an Ansible playbook to monitor and automatically restart crashed system services.
+Write an Ansible playbook to configure automatic security updates on Ubuntu and CentOS.
+🚀 Ansible Automation for CI/CD & Cloud (10 Questions)
+-----------------------------------------------
+Write an Ansible playbook to provision AWS EC2 instances and attach an EBS volume dynamically.
+Write an Ansible playbook to deploy a microservices architecture using Docker and Kubernetes.
+Write an Ansible playbook that automatically scales up and down cloud resources based on CPU usage.
+Write an Ansible playbook to configure Prometheus and Grafana for system monitoring.
+Write an Ansible playbook that integrates with Terraform to manage infrastructure as code.
+Write an Ansible playbook to deploy and configure an AWS Lambda function using Boto3.
+Write an Ansible playbook to install and configure Jenkins agents on multiple servers.
+Write an Ansible playbook that automates GitHub Actions runner installation on self-hosted servers.
+Write an Ansible playbook that dynamically updates DNS records using AWS Route 53.
+Write an Ansible playbook to automate certificate management with AWS ACM and Nginx.
+📊 Ansible Monitoring & Log Management (5 Questions)
+-----------------------------------------------
+Write an Ansible playbook to set up centralized logging using Filebeat and Elasticsearch.
+Write an Ansible playbook to monitor and send alerts if a server’s disk usage exceeds 90%.
+Write an Ansible playbook to install and configure Zabbix agent on Linux servers.
+Write an Ansible playbook that tracks system performance metrics (CPU, RAM, network) using Telegraf.
+Write an Ansible playbook to rotate logs for a high-traffic Nginx server and archive old logs.

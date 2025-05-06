@@ -1,0 +1,30 @@
+ Cluster Setup & Management (5 Questions)
+Write a script to check if Kubernetes is installed and display its version. If not installed, install it.
+Write a script to initialize a Kubernetes cluster with kubeadm and set up a worker node.
+Write a script to list all nodes and their statuses in a Kubernetes cluster.
+Write a script to create a namespace dynamically based on user input.
+Write a script to delete all pods in a specific namespace forcefully.
+🔹 Pod & Deployment Management (5 Questions)
+Write a script to deploy an Nginx pod using kubectl run and expose it on port 80.
+Write a script to scale a deployment dynamically by taking input from the user.
+Write a script to restart all pods in a namespace.
+Write a script to list all running pods and their respective nodes.
+Write a script that monitors pod restarts and logs the restart count for each pod.
+🔹 Service & Networking (5 Questions)
+Write a script to create a Kubernetes Service that exposes an existing deployment on a specific port.
+Write a script to list all services in the cluster and filter out only LoadBalancer type services.
+Write a script to delete all services of type NodePort from a specific namespace.
+Write a script to check if a specific service exists and retrieve its external IP address.
+Write a script to update an existing Ingress resource to route traffic to a new backend service.
+🔹 Storage & Configurations (5 Questions)
+Write a script to create a Kubernetes ConfigMap from a properties file dynamically.
+Write a script to back up all ConfigMaps and Secrets from a namespace into separate YAML files.
+Write a script to check if a Persistent Volume Claim (PVC) is bound to a Persistent Volume (PV).
+Write a script to delete all unused Persistent Volumes (PV) that are in Released state.
+Write a script to patch an existing deployment to mount a ConfigMap as a volume.
+🔹 Monitoring & Logs (5 Questions)
+Write a script to monitor pod resource usage (CPU & Memory) and alert if a threshold is exceeded.
+Write a script to tail logs of a specific pod in real time.
+Write a script to fetch and store logs of all failed pods in a specific namespace.
+Write a script to automatically restart a pod if its CPU usage goes above 80%.
+Write a script to check if all pods in a deployment are in Running state and alert if any are Pending or CrashLoopBackOff.

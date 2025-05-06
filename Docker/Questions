@@ -1,0 +1,70 @@
+# //Dockerfile Scripting (15 Questions)//
+Write a script to create a Docker image from a Dockerfile and tag it with the current timestamp.
+Write a script that builds a Docker image from a directory and pushes it to Docker Hub.
+Write a script to clean up all unused Docker images, containers, volumes, and networks.
+Write a script to check if a Docker image exists locally before pulling it from Docker Hub.
+Write a script to automate the versioning of a Docker image using Git commit hash.
+Write a script that rebuilds a Docker image if the Dockerfile has changed.
+Write a script to extract and print environment variables used inside a Dockerfile.
+Write a script that builds a multi-stage Docker image and removes intermediate images.
+Write a script to list all Docker images and filter only the ones that are older than 7 days.
+Write a script to automatically change the base image of a Dockerfile and rebuild the image.
+Write a script to find and stop all running Docker containers older than a specific date.
+Write a script to export a running Docker containers filesystem as a tar archive.
+Write a script to remove all stopped containers except those running with a specific label.
+Write a script to modify a Dockerfile dynamically (e.g., update the FROM image version).
+Write a script that triggers an alert if a Docker container has been restarted more than 5 times in 10 minutes.
+Write a Dockerfile for a Java Spring Boot application that runs on OpenJDK 17 with minimal image size.
+Write a Dockerfile for a Java-based web application using Apache Tomcat as the application server.
+Write a Dockerfile for deploying a Java application with WildFly (JBoss) as the app server.
+Write a multi-stage Dockerfile for a Java Maven project to reduce image size.
+Write a Dockerfile that runs a Java application with environment-specific configurations (Dev, QA, Prod).
+Write a Dockerfile for a Node.js frontend application and a Java Spring Boot backend in a single image.
+Write a Dockerfile that runs a Java application and uses an Nginx reverse proxy in a multi-container setup.
+Write a Dockerfile for a web application using Nginx as a static file server and Gunicorn as a backend server.
+Write a Dockerfile for deploying a PHP-based web application with Apache as the web server.
+Write a Dockerfile that optimizes a Java-based microservices architecture using OpenJ9 for better memory usage.
+# //Docker Compose Scripting (15 Questions)//
+Write a script to start and stop a docker-compose stack based on user input.
+Write a script to scale a service in a running Docker Compose setup.
+Write a script that updates an environment variable in docker-compose.yml and restarts the service.
+Write a script that checks if all containers in a docker-compose setup are running.
+Write a script to dynamically change the number of replicas in docker-compose.yml.
+Write a script to check for port conflicts before running docker-compose up.
+Write a script that backs up and restores Docker Compose volumes.
+Write a script that verifies if a service in docker-compose.yml has a dependency and waits for it.
+Write a script that detects changes in docker-compose.yml and triggers a restart automatically.
+Write a script to delete and recreate a docker-compose stack with persistent storage.
+Write a script that extracts logs of all services running in docker-compose and saves them to a file.
+Write a script that fetches the health status of all services in a docker-compose stack.
+Write a script that switches between development and production environments in a docker-compose setup.
+Write a script to test a database connection inside a running docker-compose service.
+Write a script that dynamically updates the image version in docker-compose.yml before deploying.
+# //Docker Swarm Scripting (15 Questions)//
+Write a script to initialize a Docker Swarm cluster and add worker nodes.
+Write a script to deploy a stack in Docker Swarm with a docker-compose.yml file.
+Write a script that automatically drains a node in Docker Swarm before performing maintenance.
+Write a script to check if a node is a leader in Docker Swarm and notify the admin.
+Write a script that auto-scales a service in Docker Swarm based on CPU usage.
+Write a script that rolls back a service update in Docker Swarm if deployment fails.
+Write a script to list all running services and their replicas in Docker Swarm.
+Write a script that waits until all replicas in a Swarm service reach 1/1 before proceeding.
+Write a script to fetch logs of a service in Docker Swarm for the last 10 minutes.
+Write a script to check which nodes in a Swarm cluster are offline.
+Write a script to automatically restart a service in Docker Swarm if it crashes.
+Write a script that finds and removes stale Docker Swarm stacks older than 30 days.
+Write a script to change the network driver of a running Swarm service dynamically.
+Write a script to update secrets in Docker Swarm and apply them to running services.
+Write a script to detect if a Swarm service is stuck in Preparing or Failed state.
+# //Docker Monitoring & Logging Scripting (5 Questions)//
+Write a script that continuously monitors Docker logs for ERROR messages and sends an alert.
+Write a script to track CPU and memory usage of all running Docker containers.
+Write a script that backs up Docker logs and rotates them every 7 days.
+Write a script that checks if any container has been running for more than 30 days and alerts the admin.
+Write a script to fetch logs from all containers running on a remote Docker host.
+Docker Monitoring Scripting (5 Questions)
+Write a script to monitor real-time CPU and memory usage of all running Docker containers and log it.
+Write a script that detects and restarts containers consuming more than 80% CPU or memory.
+Write a script that checks the disk space used by Docker images, containers, and volumes and alerts if usage exceeds 90%.
+Write a script to integrate Docker logs with an ELK (Elasticsearch, Logstash, Kibana) stack.
+Write a script to collect Docker container stats every minute and store them in a Prometheus-compatible format.
