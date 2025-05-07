@@ -1,0 +1,27 @@
+---
+- name: system provisioning
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: set hostname
+      hostname:
+        name: my-hostname
+    - name: set timezone to UTC
+      timezone:
+        name: UTC
+    - name: create user with sudo privileges
+      user:
+        name: devops_user
+        group: sudo
+        shell: /bin/bash
+        state: present
+        create_home: yes
+    - name: Install basic system dependencies
+      apt:
+        name:
+         - python3
+         - git
+         - curl
+        state: present
+        update_cache: yes

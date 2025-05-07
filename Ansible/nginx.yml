@@ -1,0 +1,24 @@
+---
+ - name: Install the nginx service and start the service
+   hosts: all
+   become: yes
+
+   tasks:
+     - name: Install nginx service
+       apt:
+         name: nginx
+         state: present
+         update_cache: yes
+
+     - name: Start the service
+       service:
+         name: nginx
+         state: started
+         enabled: yes
+
+     - name: Remove Apache if installed
+       apt:
+         name: apache2
+         state: absent
+
+     

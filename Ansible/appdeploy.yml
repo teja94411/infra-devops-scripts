@@ -1,0 +1,27 @@
+---
+- name: Application Deployment - Clone and run web app
+  hosts: all
+  become: yes
+
+  vars:
+    app_repo: "https://github.com/example/webapp.git"
+    app_dest: "/var/www/webapp"
+
+  tasks:
+    - name: Install Git
+      apt:
+        name: git
+        state: present
+        update_cache: yes
+
+    - name: Clone application repo
+      git:
+        repo: "{{ app_repo }}"
+        dest: "{{ app_dest }}"
+        version: main
+        force: yes
+
+    - name: Restart web service (example: apache2)
+      service:
+        name: apache2
+        state: restarted
