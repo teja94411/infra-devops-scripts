@@ -1,0 +1,13 @@
+kind: Pod                  # The type of Kubernetes object (a Pod)
+apiVersion: v1             # API version for Pod objects (from the core API group)
+
+metadata:
+  name: nginx-pod          # The name of this Pod
+  namespace: nginx         # The namespace in which this Pod will be created
+
+spec:
+  containers:              # List of containers to run in this Pod
+  - name: nginx            # Name of the container inside the Pod
+    image: nginx:latest    # Docker image to use for the container
+    ports:
+    - containerPort: 80    # Port that the container exposes to the Pod network

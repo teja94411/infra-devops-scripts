@@ -1,0 +1,4 @@
+kind: Namespace        # What type of Kubernetes object this is
+apiVersion: v1         # API version used to manage this object
+metadata:              # Metadata block (name, labels, etc.)
+  name: nginx          # The name of the namespace (required)
