@@ -1,0 +1,20 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: demo-ingress
+  namespace: demo-app
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /  # Optional: rewrite URL paths
+spec:
+  rules:
+  - host: demo.local  # Hostname to route traffic from
+    http:
+      paths:
+      - path: /        # Path to match
+        pathType: Prefix
+        backend:
+          service:
+            name: demo-service   # Name of the service to route to
+            port:
+              number: 80         # Port on the service to route to
+

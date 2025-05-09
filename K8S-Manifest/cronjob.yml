@@ -1,0 +1,19 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: demo-cron
+  namespace: demo-app
+spec:
+  schedule: "*/5 * * * *"  # Run every 5 minutes
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: cron-container
+            image: busybox
+            args:
+            - /bin/sh
+            - -c
+            - echo "Running a scheduled job at $(date)"  # Task command
+          restartPolicy: OnFailure  # Retry if the job fails
