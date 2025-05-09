@@ -9,6 +9,15 @@
 2. IAM Role-Based Access Control Project  
    - Services: IAM (Users, Roles, Policies), S3, EC2  
    - Learn: Creating IAM roles/policies, assigning access permissions to EC2 or Lambda  
+AWS IAM Role-Based Access Control (RBAC) for Multi-Account Setup
+
+Implementing Multi-Factor Authentication (MFA) for All Users
+
+Managing Permissions with AWS IAM Policies and Groups
+
+Federated Identity Management Using AWS IAM and SSO
+
+Creating and Managing IAM Access Analyzer for Security Audits
 
 3. Auto-Scaling Web Server Setup  
    - Services: EC2, Auto Scaling Group (ASG), ALB, CloudWatch  
